@@ -19,9 +19,7 @@ public class Bank {
             System.out.println("New balance: " + balance);
         }
     }
-Test case 1 :
-    Input 28
-    Output : Factores of 28 (excluding 1 and 28)
+
     public static void main(String[] args) {
         Bank bankAccount = new Bank(1000.00);
         Scanner scanner = new Scanner(System.in);
